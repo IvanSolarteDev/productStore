@@ -1,0 +1,87 @@
+import type { ProductCardData } from "../components/card/genericCard";
+
+export const mockProducts: ProductCardData[] = [
+  {
+    id: "dualsense-gta-vi",
+    name: "Control inalámbrico DualSense Grand Theft Auto VI Black Limited Edition",
+    brand: "PlayStation",
+    imageUrl:
+      "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?auto=format&fit=crop&w=900&q=85",
+    imageAlt: "Control de videojuegos inalámbrico sobre fondo claro",
+    badge: "Preventa",
+    price: "$ 359.900",
+    installmentPlan: "6 cuotas de $ 59.983 sin interés",
+    sales: "+100 vendidos",
+    shipping: "Envío gratis",
+    releaseDate: "Lanzamiento 19 de noviembre",
+  },
+  {
+    id: "dualsense-chroma-pearl",
+    name: "Control inalámbrico DualSense Chroma Pearl para PS5",
+    brand: "PlayStation",
+    imageUrl:
+      "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?auto=format&fit=crop&w=900&q=85",
+    imageAlt: "Control inalámbrico para videojuegos en tono claro",
+    price: "$ 339.900",
+    originalPrice: "$ 417.900",
+    discount: "18% OFF",
+    installmentPlan: "3 cuotas de $ 113.300 sin interés",
+    rating: "4.9",
+    sales: "+50 vendidos",
+    shipping: "Envío gratis",
+  },
+  {
+    id: "dualsense-midnight-black",
+    name: "Control inalámbrico DualSense Midnight Black para PS5",
+    brand: "PlayStation",
+    imageUrl:
+      "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?auto=format&fit=crop&w=900&q=85",
+    imageAlt: "Control inalámbrico negro para PlayStation 5",
+    price: "$ 329.900",
+    installmentPlan: "3 cuotas de $ 109.967 sin interés",
+    rating: "4.8",
+    sales: "+80 vendidos",
+    shipping: "Envío gratis",
+  },
+  {
+    id: "dualsense-cosmic-red",
+    name: "Control inalámbrico DualSense Cosmic Red para PS5",
+    brand: "PlayStation",
+    imageUrl:
+      "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?auto=format&fit=crop&w=900&q=85",
+    imageAlt: "Control inalámbrico rojo para PlayStation 5",
+    price: "$ 339.900",
+    installmentPlan: "3 cuotas de $ 113.300 sin interés",
+    rating: "4.7",
+    sales: "+35 vendidos",
+    shipping: "Envío gratis",
+  },
+  {
+    id: "pulse-elite",
+    name: "Audífonos inalámbricos PULSE Elite para PlayStation",
+    brand: "PlayStation",
+    imageUrl:
+      "https://images.unsplash.com/photo-1600086827875-a63b01f1335c?auto=format&fit=crop&w=900&q=85",
+    imageAlt: "Audífonos inalámbricos para videojuegos",
+    price: "$ 749.900",
+    originalPrice: "$ 829.900",
+    discount: "10% OFF",
+    installmentPlan: "6 cuotas de $ 124.983 sin interés",
+    rating: "4.8",
+    sales: "+20 vendidos",
+    shipping: "Envío gratis",
+  },
+  {
+    id: "charging-station-ps5",
+    name: "Base de carga para controles DualSense",
+    brand: "PlayStation",
+    imageUrl:
+      "https://images.unsplash.com/photo-1593118247619-e2d6f056869e?auto=format&fit=crop&w=900&q=85",
+    imageAlt: "Accesorio de carga para controles de videojuegos",
+    price: "$ 159.900",
+    installmentPlan: "3 cuotas de $ 53.300 sin interés",
+    rating: "4.6",
+    sales: "+60 vendidos",
+    shipping: "Envío gratis",
+  },
+];
