@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  /* Fondo general de la aplicación */
+  --color-background: #E3F2FD;
+  /* Fondo de superficies como formularios */
+  --color-surface: #FFFFFF;
+  /* Color principal de botones y acciones */
+  --color-primary: #0D47A1;
+  /* Color secundario para elementos de apoyo */
+  --color-secondary: #90CAF9;
+  /* Color de acento para destacar elementos */
+  --color-accent: #2196F3;
+  /* Color de texto con buen contraste sobre el fondo */
+  --color-foreground: #102A43;
+  /* Color de bordes */
+  --color-border: #90CAF9;
+  /* Color para errores y acciones destructivas */
+  --color-error: #FF0052;
+  /* Color para advertencias */
+  --color-warning: #FFD400;
+  /* Color para operaciones exitosas */
+  --color-success: #00C68D;
+  /* Color para mensajes informativos */
+  --color-info: #0055DA;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+}
