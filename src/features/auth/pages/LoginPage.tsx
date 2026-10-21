@@ -36,7 +36,7 @@ export function LoginPage() {
         className="flex w-full items-center justify-center px-4 py-8"
        
       >
-        <div className="w-full max-w-md rounded-lg border border-white/20 bg-slate-900/60 shadow-xl backdrop-blur-sm">
+        <div className="w-full max-w-md rounded-lg border border-white/20 bg-slate-50/45 shadow-xl backdrop-blur-sm">
           <div className=" rounded-lg  ">
             <div className="p-6  ">
               <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">

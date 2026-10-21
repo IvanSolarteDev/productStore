@@ -31,3 +31,12 @@ body {
   background-color: var(--color-background);
   color: var(--color-foreground);
 }
+
+.scrollbar-hidden {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}

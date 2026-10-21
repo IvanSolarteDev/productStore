@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1792609961624" clover="3.2.0">
+  <project timestamp="1792609961624" name="All files">
+    <metrics statements="133" coveredstatements="126" conditionals="78" coveredconditionals="73" methods="60" coveredmethods="55" elements="271" coveredelements="254" complexity="0" loc="133" ncloc="133" packages="15" files="22" classes="22"/>
+    <package name="src">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="App.tsx" path="C:\Ivan\productStore\src\App.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.app">
+      <metrics statements="7" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="3"/>
+      <file name="AppLayout.tsx" path="C:\Ivan\productStore\src\app\AppLayout.tsx">
+        <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="2"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+      </file>
+      <file name="NotFoundPage.tsx" path="C:\Ivan\productStore\src\app\NotFoundPage.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="router.tsx" path="C:\Ivan\productStore\src\app\router.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.features.auth.pages">
+      <metrics statements="10" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="4"/>
+      <file name="LoginPage.tsx" path="C:\Ivan\productStore\src\features\auth\pages\LoginPage.tsx">
+        <metrics statements="8" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+      </file>
+      <file name="RegisterPage.tsx" path="C:\Ivan\productStore\src\features\auth\pages\RegisterPage.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.features.auth.services">
+      <metrics statements="13" coveredstatements="12" conditionals="16" coveredconditionals="15" methods="2" coveredmethods="2"/>
+      <file name="auth.service.ts" path="C:\Ivan\productStore\src\features\auth\services\auth.service.ts">
+        <metrics statements="13" coveredstatements="12" conditionals="16" coveredconditionals="15" methods="2" coveredmethods="2"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="20" count="2" type="cond" truecount="3" falsecount="1"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="40" count="3" type="stmt"/>
+        <line num="42" count="3" type="stmt"/>
+        <line num="52" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="56" count="2" type="stmt"/>
+        <line num="57" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.features.cart">
+      <metrics statements="24" coveredstatements="22" conditionals="8" coveredconditionals="7" methods="11" coveredmethods="10"/>
+      <file name="CartProvider.tsx" path="C:\Ivan\productStore\src\features\cart\CartProvider.tsx">
+        <metrics statements="19" coveredstatements="17" conditionals="6" coveredconditionals="5" methods="10" coveredmethods="9"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="10" type="stmt"/>
+        <line num="11" count="10" type="stmt"/>
+        <line num="12" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="19" count="14" type="stmt"/>
+        <line num="21" count="14" type="stmt"/>
+        <line num="22" count="14" type="stmt"/>
+        <line num="23" count="14" type="stmt"/>
+        <line num="30" count="14" type="stmt"/>
+        <line num="31" count="14" type="stmt"/>
+        <line num="33" count="5" type="stmt"/>
+        <line num="35" count="4" type="stmt"/>
+        <line num="36" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="38" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="50" count="14" type="stmt"/>
+      </file>
+      <file name="useCart.ts" path="C:\Ivan\productStore\src\features\cart\useCart.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="15" count="24" type="stmt"/>
+        <line num="16" count="23" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="21" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.features.products.components">
+      <metrics statements="26" coveredstatements="26" conditionals="8" coveredconditionals="6" methods="15" coveredmethods="15"/>
+      <file name="modalBuy.tsx" path="C:\Ivan\productStore\src\features\products\components\modalBuy.tsx">
+        <metrics statements="24" coveredstatements="24" conditionals="8" coveredconditionals="6" methods="14" coveredmethods="14"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="21" count="27" type="stmt"/>
+        <line num="35" count="4" type="stmt"/>
+        <line num="42" count="11" type="stmt"/>
+        <line num="44" count="11" type="cond" truecount="3" falsecount="1"/>
+        <line num="45" count="11" type="stmt"/>
+        <line num="47" count="11" type="stmt"/>
+        <line num="48" count="3" type="stmt"/>
+        <line num="49" count="3" type="stmt"/>
+        <line num="52" count="11" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="55" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="59" count="11" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="62" count="11" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="67" count="11" type="stmt"/>
+        <line num="78" count="8" type="stmt"/>
+        <line num="100" count="1" type="stmt"/>
+        <line num="109" count="1" type="stmt"/>
+        <line num="117" count="1" type="stmt"/>
+        <line num="169" count="4" type="stmt"/>
+        <line num="177" count="16" type="stmt"/>
+      </file>
+      <file name="openImage.tsx" path="C:\Ivan\productStore\src\features\products\components\openImage.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.features.products.pages">
+      <metrics statements="16" coveredstatements="14" conditionals="2" coveredconditionals="2" methods="10" coveredmethods="8"/>
+      <file name="ProductDetailPage.tsx" path="C:\Ivan\productStore\src\features\products\pages\ProductDetailPage.tsx">
+        <metrics statements="14" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="8" coveredmethods="6"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="24" count="7" type="stmt"/>
+        <line num="25" count="7" type="stmt"/>
+        <line num="26" count="7" type="stmt"/>
+        <line num="27" count="7" type="stmt"/>
+        <line num="29" count="7" type="stmt"/>
+        <line num="35" count="63" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="134" count="21" type="stmt"/>
+        <line num="178" count="1" type="stmt"/>
+        <line num="183" count="1" type="stmt"/>
+        <line num="218" count="0" type="stmt"/>
+        <line num="221" count="0" type="stmt"/>
+      </file>
+      <file name="ProductListPage.tsx" path="C:\Ivan\productStore\src\features\products\pages\ProductListPage.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="22" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shared.components.breadcrumbs">
+      <metrics statements="8" coveredstatements="8" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <file name="breadcrumbs.tsx" path="C:\Ivan\productStore\src\shared\components\breadcrumbs\breadcrumbs.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="8" count="5" type="cond" truecount="4" falsecount="0"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shared.components.button">
+      <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="button.tsx" path="C:\Ivan\productStore\src\shared\components\button\button.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="13" count="19" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="19" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shared.components.card">
+      <metrics statements="2" coveredstatements="2" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
+      <file name="genericCard.tsx" path="C:\Ivan\productStore\src\shared\components\card\genericCard.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="25" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shared.components.checkbok">
+      <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="checkbox.tsx" path="C:\Ivan\productStore\src\shared\components\checkbok\checkbox.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="11" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shared.components.input">
+      <metrics statements="12" coveredstatements="12" conditionals="16" coveredconditionals="16" methods="4" coveredmethods="4"/>
+      <file name="input.tsx" path="C:\Ivan\productStore\src\shared\components\input\input.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="11" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="4" type="stmt"/>
+      </file>
+      <file name="passwordInput.tsx" path="C:\Ivan\productStore\src\shared\components\input\passwordInput.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="11" coveredconditionals="11" methods="3" coveredmethods="3"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="20" count="6" type="stmt"/>
+        <line num="21" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="6" type="stmt"/>
+        <line num="24" count="6" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shared.components.link">
+      <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="link.tsx" path="C:\Ivan\productStore\src\shared\components\link\link.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="13" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="14" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shared.components.modal">
+      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="modal.tsx" path="C:\Ivan\productStore\src\shared\components\modal\modal.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="12" count="28" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="12" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shared.mock">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="products.ts" path="C:\Ivan\productStore\src\shared\mock\products.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

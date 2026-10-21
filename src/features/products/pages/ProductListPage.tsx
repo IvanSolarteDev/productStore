@@ -3,10 +3,10 @@ import { mockProducts as products } from "../../../shared/mock/products";
 
 export function ProductListPage() {
   return (
-    <section className="w-full px-4 py-6 sm:px-6 sm:py-8">
+    <section className="w-full px-4 pb-6 pt-3 sm:px-6 sm:pb-8 ">
       <header className="mb-5 flex items-end justify-between gap-3 sm:mb-6">
         <div>
-          <p className="text-sm font-medium text-primary">Tienda</p>
+          <p className="text-sm font-medium text-blue-300 ">Tienda</p>
           <h1 className="mt-1 text-2xl font-semibold text-slate-300 sm:text-3xl">
             Controles para PS5
           </h1>
